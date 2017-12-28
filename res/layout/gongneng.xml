@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.test.egg.gongneng">
+
+    <TextView
+        android:id="@+id/gntv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:text="@string/gntv1"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" /> 
+
+    <ImageButton
+        android:id="@+id/gnibc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="#00000000"
+        android:src="@drawable/cb" />
+
+    <ImageButton
+        android:id="@+id/gnibz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/gnibc"
+        android:layout_marginEnd="32sp"
+        android:layout_marginRight="32sp"
+        android:layout_toStartOf="@+id/gntv1"
+        android:layout_toLeftOf="@+id/gntv1"
+        android:background="#00000000"
+        android:src="@drawable/zb" />
+
+    <ImageButton
+        android:id="@+id/gniby"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="35sp"
+        android:layout_marginStart="35sp"
+        android:layout_toEndOf="@+id/gntv1"
+        android:layout_toRightOf="@+id/gntv1"
+        android:background="#00000000"
+        android:src="@drawable/yb" />
+
+    <ImageButton
+        android:id="@+id/gnibx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/gnibc"
+        android:layout_alignLeft="@+id/gnibc"
+        android:layout_below="@+id/gnibc"
+        android:background="#00000000"
+        android:src="@drawable/xb" />
+
+    <ImageButton
+        android:id="@+id/gnibs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/gnibc"
+        android:layout_alignStart="@+id/gnibc"
+        android:layout_alignLeft="@+id/gnibc"
+        android:background="#00000000"
+        android:src="@drawable/sb" />
+
+    
+</RelativeLayout>

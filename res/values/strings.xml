@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Egg</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="beginbt1">begin</string>
+    
+    <string name="gntv1">xxx</string>
+    <string name="gnibc"></string>
+    <string name="gnibs"></string>
+    <string name="gnibx"></string>
+    <string name="gnibz"></string>
+    <string name="gniby"></string>
+    
+    <string name="lrndbtv1">hi,xxx</string>
+    <string name="lrndbtv2">欢迎您使用Electrical control,\n初次使用请录入您的脑电波。</string>
+    <string name="lrndbbt1">录入</string>
+    
+    <string name="ndblztv1">hi,xxx</string>
+    <string name="ndblztv2">录入时请保持心情平和，录制时间将持续1分钟。</string>
+    <string name="ndblzbt1">开始使用吧</string>
+    
+</resources>

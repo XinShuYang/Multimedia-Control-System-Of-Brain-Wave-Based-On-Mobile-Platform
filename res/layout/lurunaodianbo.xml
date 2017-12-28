@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.test.egg.lurunaodianbo">
+
+    <TextView
+        android:id="@+id/lrndbtv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lrndbtv1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:text="@string/lrndbtv2"
+        android:textColor="#FFFFFF"
+        android:textSize="23sp" />
+
+    <TextView
+        android:id="@+id/lrndbtv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="74dp"
+        android:text="@string/lrndbtv1"
+        android:textColor="#FFFFFF"
+        android:textSize="27sp" />
+
+    <Button
+        android:id="@+id/lrndbbt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lrndbtv2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:text="@string/lrndbbt1" 
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" 
+        android:background="#6E7B8B"/>
+
+</RelativeLayout>
